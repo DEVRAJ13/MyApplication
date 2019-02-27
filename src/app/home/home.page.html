@@ -1,12 +1,17 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title color="dark">Home</ion-title>
+    <ion-buttons slot="end">
+      <ion-icon color="dark" class="search-icon" name="search" (click)="openSearchPage()">
+      </ion-icon>
+    </ion-buttons>
+    <ion-buttons slot="end">
+      <ion-icon color="dark" class="more-icon" name="more" (click)="pressMoreButton()">
+      </ion-icon>
+    </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+
 </ion-content>
