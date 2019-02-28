@@ -1,4 +1,34 @@
+# Ionic 4 Application
 
+Ionic Hybrid Mobile Application for IOS / Android.
+
+## Getting Started
+
+Download this project remove node module from the project and re-install them again by using npm command  
+> npm install 
+
+After adding new node modules you are ready to play with this project.
+
+### Prerequisites
+
+Node Js
+Ionic
+
+### Installing
+
+Install node 
+https://nodejs.org/en/
+
+After installing node you have to install ionic cli by using npm command 
+>npm install -g cordova ionic
+
+Now install typescript
+>npm install -g typescript
+
+And now open project location on your terminal and just hit command
+> ionic serve
+
+this is it all done.
   <img align="left" width="200" height="370" src="https://user-images.githubusercontent.com/24736668/53560463-677bfc00-3b72-11e9-8b07-ed2f42d9e062.png">
 
 
