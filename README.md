@@ -1,4 +1,4 @@
-# Ionic 4 Application
+# Ionic 4 Template
 
 Ionic Hybrid Mobile Application for IOS / Android.
 
