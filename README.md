@@ -51,6 +51,19 @@ this is it all done.
   <img  align="right" width="200" height="370" src="https://user-images.githubusercontent.com/24736668/53560443-5af7a380-3b72-11e9-914b-5f816382d95d.png">
 
 
+## Authors
+
+* **DevRaj thakur** 
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Hat tip to anyone who's code was used
+* Inspiration
+* etc
 
 
 
