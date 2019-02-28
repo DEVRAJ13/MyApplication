@@ -1,0 +1,45 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button color="light" defaultHref="home"></ion-back-button>
+    </ion-buttons>
+    <ion-title color="light">Detail</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row no-padding>
+    <ion-col no-padding>
+      <ion-slides #slider effect="fade" (ionSlideWillChange)="onSlideChanged()" pager="false">
+        <ion-slide *ngFor="let slide of slides; let i = index;">
+          <img style="height: 245px;
+          width: 100%;
+          object-fit: contain;" [src]="slide" />
+        </ion-slide>
+        <div *ngIf="currentIndex > 1" class="swiper-button-prev swiper-button-white" (click)="previousSlide()"></div>
+        <div *ngIf="currentIndex < slides.length-1" class="swiper-button-next swiper-button-white"
+          (click)="nextSlide()">
+        </div>
+      </ion-slides>
+
+      <ion-card-header>
+        <ion-card-subtitle class="subtitle-left-border" text-uppercase>Topman's SS19 Denim</ion-card-subtitle>
+        <ion-card-title class="title-custom-style">
+          Wider Legs
+        </ion-card-title>
+      </ion-card-header>
+
+
+
+      <ion-card-content class="content">
+        The wide-leg cut that has risen in popularity over the last few seasons is all about turning heads and
+        reclaiming circulation for your lower limbs.
+      </ion-card-content>
+    </ion-col>
+  </ion-row>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-button color="light" expand="full" fill="clear">ADD TO CART</ion-button>
+  </ion-toolbar>
+</ion-footer>

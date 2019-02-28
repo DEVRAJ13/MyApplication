@@ -1,6 +1,7 @@
 :host /deep/ .searchbar-input.sc-ion-searchbar-md {
     -webkit-box-shadow: none !important;
     box-shadow:none !important;
+    color:#ffffff !important;
  }
  
  :host /deep/ ion-icon.searchbar-search-icon.sc-ion-searchbar-md.hydrated {
@@ -9,7 +10,7 @@
  
  :host /deep/ .searchbar-input.sc-ion-searchbar-md {
      padding: 6px 0px !important;
-     background: var( --ion-color-warning);
+     background: var(--ion-color-dark);
      font-size: 20px !important;
      font-weight: 500 !important;
  }

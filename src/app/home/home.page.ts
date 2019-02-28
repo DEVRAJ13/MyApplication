@@ -10,6 +10,8 @@ import { PopoverComponent } from '../popover/popover.component';
 })
 export class HomePage implements OnInit {
 
+ 
+
   constructor(public popoverController: PopoverController, public navCtrl: NavController) { }
 
   ngOnInit() { }
@@ -24,6 +26,10 @@ export class HomePage implements OnInit {
 
   async openSearchPage() {
     this.navCtrl.navigateForward('/search');
+  }
+
+  async viewDetail() {
+    this.navCtrl.navigateForward('/detail');
   }
 
 }
