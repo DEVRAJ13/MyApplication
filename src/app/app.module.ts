@@ -12,7 +12,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { PopoverComponent } from './popover/popover.component';
 
 
-
 @NgModule({
   declarations: [AppComponent, PopoverComponent],
   entryComponents: [PopoverComponent],
